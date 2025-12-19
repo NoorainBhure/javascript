@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script>
+        //var element=document.getElementById("hello").value;
+        //element.style.color="blue";
+        function addTest(){
+            var n1=document.getElementById("a1").value;
+            var n2=document.getElementById("a2").value;
+            var sum=parseInt(n1)+parseInt(n2);//parseint convert string to integer
+            alert("The sum is"+ sum);
+        }
+    </script>
+</head>
+<body>
+    <H1 id="hello">Hello JavaScript</H1>
+    <p>Hello Universe</p> 
+    <p>Hello Universe</p> 
+    <h2 class="example"> Hello world</h2>
+    <h3 class="item">Item1</h3>
+    <h3 class="item">Item2</h3>
+    <!-- <h1>Hello Universe</h1>  -->
+    <script>
+        var element=document.getElementById("hello");
+        element.style.color="blue";
+
+
+         var element=document.getElementsByTagName('p');
+        element[0].style.color="yellow";
+
+
+        var div=document.querySelector('.example');
+        div.style.color='green';
+
+        var items=document.querySelectorAll('.item');
+        items.forEach(item=>{
+            item.style.color="red";
+        })
+
+    </script>
+
+
+
+
+    <form >
+        <label >Enter 1 Number</label>
+        <input type="text" id="a1"><br>
+        <label >Enter 2 Number</label>
+        <input type="text" id="a2"><br>
+        <button type="submit" onclick="addTest()">Add</button>
+    </form>
+ 
+       
+   
+   
+</body>
+</html>
