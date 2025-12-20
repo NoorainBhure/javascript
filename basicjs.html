@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>//this is simply to display it
+        var name="Noorain";
+        let email="noorainbhure123@gmail.com";
+        const marks=90;
+        document.write("Your Name: "+name+"<br>"+ "Your Email Id: " +email+"<br>"+
+        "Your Marks: "+marks)
+    </script> -->
+    <script>//this is used to enter through user 
+        var name=prompt("Enter Your Name");
+        let email=prompt("Enter Your Email");
+        const marks=prompt("Enter Your Marks");
+        document.write("Your Name: "+name+"<br>"+ "Your Email Id: " +email+"<br>"+
+        "Your Marks: "+marks)
+        if (marks>60){
+            var data=confirm("Are you sure to proceed");
+        
+        if(data==true){
+            alert("Welcome");
+        }
+        else{
+            alert("sorry");
+        }
+    }
+    else{
+        alert("sorry");
+    }
+    </script>
+</body>
+</html>
