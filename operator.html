@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let n1=10;
+        let n2=10;
+        //let result=(n1+n2);
+        //n1=n1+n2;this and n1+=n2 is same this is uded to reassign 
+        n1+=n2;//this is arithemetic assignment operator use when w dont want to declare third variable
+        document.write("the sum is"+n1 +"<br>");
+
+        
+
+    </script>
+</head>
+<body>
+    <script>
+        let areofcircle,r,pi=3.14;
+        r=prompt("Enter value of R");
+        areofcircle=pi*r*r;
+        document.write("Area of Circle="+areofcircle+"<br>")
+
+        let a=10;// this is for comparison tag
+        let b=20;
+        document.write(a==10);
+        document.write("<br>")
+        document.write(a>10);
+        document.write("<br>")
+        document.write(a==10 && b==2);//both the value must equal
+        document.write("<br>")
+        document.write(a==10 || b==20);//one value must equal
+        document.write("<br>")
+        document.write(a!=10);
+        document.write("<br>")
+        a>b?document.write("A is greater"):document.write("B is greater");//if first condition is tru than first expression if false tha pother
+          document.write("<br>");
+
+        let x=50;
+        let y=100;
+        if(x==50){
+        document.write("True");
+        }
+        document.write("<br>");
+        if(x>0){
+               document.write("The Number is +ve");
+        }
+        else{
+         document.write("The Number is -ve");   
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum of Three Digit Number</title>
+</head>
+<body>
+
+<script>
+    let n = 152 ;   
+    let sum = 0;
+
+    if (n >= 100 && n <= 999) {
+        while (n > 0) {
+            let r = n % 10;         
+            sum = sum + r;           
+            n = Math.floor(n / 10); 
+        }
+        document.write("Sum of digits = " + sum);
+    } else {
+        document.write("Please enter a three digit number");
+    }
+</script>
+
+</body>
+</html>
