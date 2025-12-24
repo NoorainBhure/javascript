@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number1,number2,number3;
+        number1=parseInt(prompt("Enter the First Number"));
+        number2=parseInt(prompt("Enter the Second Number"));
+        number3=parseInt(prompt("Enter the Third Number"));
+        if(number1>number2 && number1>number3){
+            document.write("Number 1 is Greater : "+number1);
+        }
+        else if(number2>number1 && number2>number3){
+            document.write("Number 2 is Greater : "+number2);
+        }
+        else if(number3>number1 && number3>number2){
+            document.write("Number 3 is Greater : "+number3);
+        }
+        else if(number1==number2 && number2==number3){
+            document.write("Number Are Equal :" +number1+"="+number2+"="+number3);
+        }
+        else{
+           document.write("Wrong Input");
+
+       }
+        
+    </script>
+</body>
+</html>
