@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+var myPromise= new Promise((success,reject)=>{
+    var leapYear=prompt("Enter Year");
+    // var password="test@12345";
+    if(leapYear%4==0 ){
+        success();
+    }
+    else{
+        reject();
+    }
+});
+myPromise
+.then(()=>{
+
+    document.write(" This is a Leap Year");
+})
+.catch(()=>{
+    document.write(" This is a Not Leap Year");
+})
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

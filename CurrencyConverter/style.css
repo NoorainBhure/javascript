@@ -1,0 +1,31 @@
+.hero{
+    text-align: center;
+    /* display: flex; */ 
+    /* justify-content: center;*/
+    margin: auto;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    border: 1px;
+    border-radius: 5px;
+    border-color: rgb(18, 12, 4);
+    background:#1f2430;
+overflow: hidden;
+}
+.row input{
+    flex: 1;
+    border: none;
+    padding: 20px ;
+
+
+}
+.row select{
+     border: none;
+}
